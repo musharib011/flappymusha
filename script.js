@@ -16,10 +16,6 @@ let isGameOver = false;
 let score = 0;
 let highScore = localStorage.getItem("flappyBirdHighScore") || 0;
 
-// Sound Effects (make sure these files exist in /sounds/)
-const jumpSound = new Audio('sounds/jump.mp3');
-const hitSound = new Audio('sounds/hit.mp3');
-const scoreSound = new Audio('sounds/score.mp3');
 
 // Set High Score on Page Load
 highScoreDisplay.textContent = "High Score: " + highScore;
