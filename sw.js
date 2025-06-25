@@ -1,12 +1,13 @@
 const CACHE_NAME = 'flappymusha-cache-v1';
 const ASSETS_TO_CACHE = [
+ const ASSETS_TO_CACHE = [
   '/',
-  '/index.html',
-  '/style.css',
-  '/manifest.json',
-  '/game/index.html',
-  '/game/style.css',
-  '/game/script.js'
+  'index.html',
+  'game.index.html',
+  'game-style.css',
+  'style.css',
+  'manifest.json',
+  'script.js'
 ];
 
 self.addEventListener('install', event => {
