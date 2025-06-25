@@ -1,12 +1,11 @@
 const CACHE_NAME = 'flappymusha-cache-v1';
 const ASSETS_TO_CACHE = [
  const ASSETS_TO_CACHE = [
+  const ASSETS_TO_CACHE = [
   '/',
   'index.html',
   'game.index.html',
   'game-style.css',
-  'style.css',
-  'manifest.json',
   'script.js'
 ];
 
