@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy Musha</title>
+  <link rel="stylesheet" href="game-style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <h1>Flappy Musha</h1>
+    <p>The ultimate place to play your favorite clone!</p>
+  </header>
+
+  <div class="game-container">
+    <div class="scoreboard">
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <div>
+        <span id="score">Score: 0</span>
+        <span id="high-score">High Score: 0</span>
+      </div>
+    </div>
+
+    <div id="game">
+      <div class="bird"></div>
+      <div class="pipe top-pipe"></div>
+      <div class="pipe bottom-pipe"></div>
+    </div>
+
+    <div class="game-over hidden">
+      <h2>Game Over</h2>
+      <p>Your Score: <span id="final-score">0</span></p>
+      <p>Best: <span id="best-score">0</span></p>
+      <button id="try-again">Try Again</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 FlappyMusha. Made with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
